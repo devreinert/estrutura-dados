@@ -94,7 +94,7 @@ const lista = new Lista();
     lista.adicionar(2); // adicionando novo nó
     lista.adicionar(3); // adicionando novo nó
     console.log(lista.valores()); // imprimindo nós
-    lista.deletar(1); // deletando nó
+    lista.deletar(2); // deletando nó
     lista.adicionar(4); // adicionando novo nó
     console.log(lista.valores()); // imprimindo nós
     console.log(lista.get(2)); // pegando um nó em especifico
