@@ -21,8 +21,11 @@ class ListaDupla {
             this.cauda = novoNo;
         } else {
             novoNo.proximo = this.cabeca; // novo nó vira a cabeça
-            this.cabeca.anterior = novoNo; // a antiga cabeça vira o segundo nó e aponta tbm para trás
-            this.cabeca = novoNo; // atualiza o novo nó da lista para cabeça 
+            this.cabeca.anterior = novoNo; // o segundo nó aponta para tras
+            this.cabeca = novoNo; // atualiza o novo nó da lista para cabeça
+            //null ← [novo] ⇄ [10] ⇄ [20] ⇄ [30] → null
+                    //↑
+                    //cabeca 
         }
     }
 
