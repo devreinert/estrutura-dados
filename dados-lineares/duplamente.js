@@ -44,17 +44,17 @@ class ListaDupla {
         }
     }
 
-    // ✅ Percorrer nos dois sentidos
+    //  Percorrer nos dois sentidos
     percorrer() {
         let atual = this.cabeca;
-        console.log("➡ Percorrendo do início para o final:");
+        console.log(" Percorrendo do início para o final:");
         while (atual !== null) {
             console.log(atual.valor);
             atual = atual.proximo;
         }
 
         atual = this.cauda;
-        console.log("⬅ Percorrendo do final para o início:");
+        console.log(" Percorrendo do final para o início:");
         while (atual !== null) {
             console.log(atual.valor);
             atual = atual.anterior;
