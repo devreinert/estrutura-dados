@@ -125,4 +125,22 @@ class Dicionario {
         }
     }
 }
- 
+
+const dic = new Dicionario();
+
+// inserir
+dic.adicionar("casa", "lugar para morar");
+dic.adicionar("carro", "veículo");
+dic.adicionar("gato", "animal doméstico");
+
+// buscar
+console.log(dic.buscar("casa"));
+console.log(dic.buscar("gato"));
+console.log(dic.buscar("banana")); // não existe
+
+// remover
+console.log(dic.remover("carro"));
+console.log(dic.remover("carro")); // já removido
+
+// visualizar tabela
+dic.mostrar();
